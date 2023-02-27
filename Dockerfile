@@ -12,7 +12,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
-FROM harbor.chinagci.com/public/euleros:2.5
+FROM hxzqwe/euleros:2.5
 
 ARG MYSQL_SERVER_PACKAGE=mysql-community-server-minimal-5.7.39
 ARG MYSQL_SHELL_PACKAGE=mysql-shell-8.0.30
